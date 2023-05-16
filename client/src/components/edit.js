@@ -4,8 +4,8 @@ import { useParams, useNavigate } from "react-router";
 export default function Edit() {
  const [form, setForm] = useState({
    name: "",
-   position: "",
-   level: "",
+   email: "",
+   phone: "",
    records: [],
  });
  const params = useParams();
@@ -48,8 +48,8 @@ export default function Edit() {
    e.preventDefault();
    const editedPerson = {
      name: form.name,
-     position: form.position,
-     level: form.level,
+     email: form.email,
+     phone: form.phone,
    };
  
    // This will send a post request to update the data in the database.
@@ -80,53 +80,38 @@ export default function Edit() {
          />
        </div>
        <div className="form-group">
-         <label htmlFor="position">Position: </label>
+         <label htmlFor="position">Email: </label>
          <input
            type="text"
            className="form-control"
-           id="position"
-           value={form.position}
-           onChange={(e) => updateForm({ position: e.target.value })}
+           id="email"
+           value={form.email}
+           onChange={(e) => updateForm({ email: e.target.value })}
          />
        </div>
+
        <div className="form-group">
-         <div className="form-check form-check-inline">
-           <input
-             className="form-check-input"
-             type="radio"
-             name="positionOptions"
-             id="positionIntern"
-             value="Intern"
-             checked={form.level === "Intern"}
-             onChange={(e) => updateForm({ level: e.target.value })}
-           />
-           <label htmlFor="positionIntern" className="form-check-label">Intern</label>
-         </div>
-         <div className="form-check form-check-inline">
-           <input
-             className="form-check-input"
-             type="radio"
-             name="positionOptions"
-             id="positionJunior"
-             value="Junior"
-             checked={form.level === "Junior"}
-             onChange={(e) => updateForm({ level: e.target.value })}
-           />
-           <label htmlFor="positionJunior" className="form-check-label">Junior</label>
-         </div>
-         <div className="form-check form-check-inline">
-           <input
-             className="form-check-input"
-             type="radio"
-             name="positionOptions"
-             id="positionSenior"
-             value="Senior"
-             checked={form.level === "Senior"}
-             onChange={(e) => updateForm({ level: e.target.value })}
-           />
-           <label htmlFor="positionSenior" className="form-check-label">Senior</label>
+         <label htmlFor="position">Phone: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="phone"
+           value={form.phone}
+           onChange={(e) => updateForm({ phone: e.target.value })}
+         />
        </div>
+
+       <div className="form-group">
+         <label htmlFor="msg">Message : </label>
+         <input
+           type="text"
+           className="form-control"
+           id="msg"
+           value={form.msg}
+           onChange={(e) => updateForm({ msg: e.target.value })}
+         />
        </div>
+
        <br />
  
        <div className="form-group">
