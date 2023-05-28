@@ -6,8 +6,8 @@ const Home = () => {
         <>
             <section className="schedule-apt padding-inline">
                     <video className="background-video" autoplay="" muted="" loop="">
-                        <source src="/Videos/TattooBanner.mp4" type="video/mp4"/>
-                        <source src="/Videos/TattooBanner.webm" type="video/webm"/>
+                        <source src="/Video/TattooBanner.mp4" type="video/mp4"/>
+                        <source src="/Video/TattooBanner.webm" type="video/webm"/>
                     </video>
 
                     <div className="paper-gradient"></div>

@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <>
         <header className="padding-inline">
-            <Link to="/contact" className="js-phoneswap js-tel"><img className="phone" src="images/Home/phone-icon.png" alt=""/></Link>
+            <Link to="/create" className="js-phoneswap js-tel"><img className="phone" src="images/Home/phone-icon.png" alt=""/></Link>
             <Link to="/"><img className="logo" src="images/Nav/logo.png" alt=""/></Link>
             <input type="checkbox" id="hamburger"/> 
 
@@ -57,10 +57,10 @@ const Header = () => {
                         </li>
 
                         <li className="list-items">
-                            <Link className="mobile-contact-us" to="/contact">CONTACT US</Link>
+                            <Link className="mobile-contact-us" to="/create">CONTACT US</Link>
 
                             <div className="contact-container">
-                                <Link className="js-tel js-phoneswap" to="/contact">
+                                <Link className="js-tel js-phoneswap" to="/create">
                                     <div className="phone-number">
                                         <div className="desktop-phone">
                                             <img className="desktop-phone" src="images/Home/phone-icon.png" alt=""/>
@@ -69,7 +69,7 @@ const Header = () => {
                                     </div>
                                 </Link>
 
-                                <Link className="contact-us" to="/contact">CONTACT US</Link>
+                                <Link className="contact-us" to="/create">CONTACT US</Link>
                             </div>
                         </li>
                     </ul>

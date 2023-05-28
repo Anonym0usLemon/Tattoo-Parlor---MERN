@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
  
 const Record = (props) => (
  <tr>
-   <td>{props.record.name}</td>
-   <td>{props.record.email}</td>
-   <td>{props.record.phone}</td>
-   <td>{props.record.msg}</td>
+   <td>{props.record.Name}</td>
+   <td>{props.record.Email}</td>
+   <td>{props.record.Phone}</td>
+   <td>{props.record.Msg}</td>
    <td>
      <Link className="btn btn-link" to={`/edit/${props.record._id}`}>Edit</Link> |
      <button className="btn btn-link"

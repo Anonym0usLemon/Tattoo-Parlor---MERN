@@ -3,9 +3,10 @@ import { useParams, useNavigate } from "react-router";
  
 export default function Edit() {
  const [form, setForm] = useState({
-   name: "",
-   email: "",
-   phone: "",
+   Name: "",
+   Email: "",
+   Phone: "",
+   Msg: "",
    records: [],
  });
  const params = useParams();
@@ -47,9 +48,10 @@ export default function Edit() {
  async function onSubmit(e) {
    e.preventDefault();
    const editedPerson = {
-     name: form.name,
-     email: form.email,
-     phone: form.phone,
+     Name: form.Name,
+     Email: form.Email,
+     Phone: form.Phone,
+     Msg: form.Msg,
    };
  
    // This will send a post request to update the data in the database.
@@ -70,45 +72,45 @@ export default function Edit() {
      <h3>Update Record</h3>
      <form onSubmit={onSubmit}>
        <div className="form-group">
-         <label htmlFor="name">Name: </label>
+         <label htmlFor="Name">Name: </label>
          <input
            type="text"
            className="form-control"
-           id="name"
-           value={form.name}
-           onChange={(e) => updateForm({ name: e.target.value })}
+           id="Name"
+           value={form.Name}
+           onChange={(e) => updateForm({ Name: e.target.value })}
          />
        </div>
        <div className="form-group">
-         <label htmlFor="position">Email: </label>
+         <label htmlFor="Email">Email: </label>
          <input
            type="text"
            className="form-control"
-           id="email"
-           value={form.email}
-           onChange={(e) => updateForm({ email: e.target.value })}
-         />
-       </div>
-
-       <div className="form-group">
-         <label htmlFor="position">Phone: </label>
-         <input
-           type="text"
-           className="form-control"
-           id="phone"
-           value={form.phone}
-           onChange={(e) => updateForm({ phone: e.target.value })}
+           id="Email"
+           value={form.Email}
+           onChange={(e) => updateForm({ Email: e.target.value })}
          />
        </div>
 
        <div className="form-group">
-         <label htmlFor="msg">Message : </label>
+         <label htmlFor="Phone">Phone: </label>
          <input
            type="text"
            className="form-control"
-           id="msg"
-           value={form.msg}
-           onChange={(e) => updateForm({ msg: e.target.value })}
+           id="Phone"
+           value={form.Phone}
+           onChange={(e) => updateForm({ Phone: e.target.value })}
+         />
+       </div>
+
+       <div className="form-group">
+         <label htmlFor="Msg">Message : </label>
+         <input
+           type="text"
+           className="form-control"
+           id="Msg"
+           value={form.Msg}
+           onChange={(e) => updateForm({ Msg: e.target.value })}
          />
        </div>
 
