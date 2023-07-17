@@ -8,11 +8,13 @@ $Merriweather: 'Merriweather';
 $Oswald: 'Oswald';
 
 
-.active { //the phone number uses the same styles as the one in the header. Added an .active class to contact page to unset display: none.
-    display: unset !important;
-}
+
 
 .contact-page {
+
+    .active { //the phone number uses the same styles as the one in the header. Added an .active class to contact page to unset display: none.
+        display: unset !important;
+    }
 
     .secondary-banner {
         .paper-gradient {
