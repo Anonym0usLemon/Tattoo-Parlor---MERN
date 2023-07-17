@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
  
 // We use Route in order to define the different routes of our application
 import { Route, Routes } from "react-router-dom";
@@ -22,6 +22,7 @@ import Bailey from './components/Artists/Bailey';
 import Jenn from './components/Artists/Jenn';
 import Matt from './components/Artists/Matt';
 import Melyssa from './components/Artists/Melyssa';
+import FAQ from './components/FAQ'; 
 
 const App = () => {
  return (
@@ -40,6 +41,7 @@ const App = () => {
        <Route path="/Jenn" element={<Jenn />} /> 
        <Route path="/Matt" element={<Matt />} /> 
        <Route path="/Melyssa" element={<Melyssa />} /> 
+       <Route path="/FAQ" element={<FAQ />} /> 
      </Routes>
      <Footer />
    </div>

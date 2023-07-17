@@ -2,44 +2,123 @@ import { Link } from 'react-router-dom';
 
 const FAQ = () => {
     return (
-        <section class="faq-page">
+        <section className="faq-page">
 
-        <div class="secondary-banner">
-            <img src="/Content/images/FAQs/background.jpg" alt=""/>
-            <div class="paper-gradient"></div>
+        <div className="secondary-banner">
+            <img src="/images/FAQs/background.jpg" alt=""/>
+            <div className="paper-gradient"></div>
         </div>
 
-        <div class="faq-section padding-inline">
+        <div className="faq-section padding-inline">
             <picture>
-                <source media="(max-width: 500px)" srcset="/Content/images/Piercings/mobile.png"/>
-                <img  class="faq-section1-background" src="/Content/images/Piercings/piercings-price-background.png" alt=""/>
+                <source media="(max-width: 500px)" srcset="/images/Piercings/mobile.png"/>
+                <img  className="faq-section1-background" src="/images/Piercings/piercings-price-background.png" alt=""/>
             </picture>
 
-            <h1 class="faq-title" >FREQUENTLY ASKED<br/>
+            <h1 className="faq-title">FREQUENTLY ASKED<br/>
                 <span>
-                    <img src="/Content/images/FAQs/title-left.png" alt=""/>
+                    <img src="/images/FAQs/title-left.png" alt=""/>
                     QUESTIONS
-                    <img src="/Content/images/FAQs/title-right.png" alt=""/>
+                    <img src="/images/FAQs/title-right.png" alt=""/>
                 </span>
             </h1>
 
-            <img class="faq-flower" src="/Content/images/FAQs/flower.png" alt=""/>
-            <img class="faq-bird" src="/Content/images/FAQs/bird.png" alt=""/>
+            <img className="faq-flower" src="/images/FAQs/flower.png" alt=""/>
+            <img className="faq-bird" src="/images/FAQs/bird.png" alt=""/>
 
-            <ul class="faq-list FAQList">
+            <ul className="faq-list FAQList">
                 
-                <%  foreach ( var item in Model.ChildPages ) { %>
-                    <li class="faq-question1 FAQEntry"  id="Q_<%: item.UrlSegment %>" title="<%:item.Data.QuestionTitle %>">
+                <li className="faq-question1 FAQEntry"  id="" title="">
+                    <h2 className="js-FAQH FAQEntry__heading"><span className="faq-plus"></span><span className="faq-spacer"></span>
+                    
+                    <a href="">I haven't heard from my artist since I booked...should I still show up?</a></h2>
 
-                        <h2 class="js-FAQH FAQEntry__heading"><span class="faq-plus"></span><span class="faq-spacer"></span><a href="#Q_<%: item.UrlSegment %>"> <%: item.Data.Question %></a></h2>
-    
-                        <div class="FAQEntry__body">
-                            <div class="FAQEntry__bodyPos group"><%: item.Data.Answer %></div>
+                    <div className="FAQEntry__body">
+                        <div className="FAQEntry__bodyPos group">
+                            Et possimus autem sed beatae voluptatem et temporibus commodi aut fugit similique. Aut quia nihil et 
+                            velit commodi aut sint nostrum quo dignissimos praesentium et ullam harum hic molestiae possimus. Nam 
+                            voluptatem modi et autem laborum aut laudantium molestias ea nihil cumque?
                         </div>
-                    </li>
-                <%  } %>
+                    </div>
+                </li>
 
-                
+
+                <li className="faq-question1 FAQEntry"  id="" title="">
+                    <h2 className="js-FAQH FAQEntry__heading"><span className="faq-plus"></span><span className="faq-spacer"></span>
+                    
+                    <a href="">Are Tattoos Safe?</a></h2>
+
+                    <div className="FAQEntry__body">
+                        <div className="FAQEntry__bodyPos group">
+                            Yes, as long as you go to a reputable tattoo artist that is following all recommended safety 
+                            precautions. Make sure you’re completely honest with your tattoo artist regarding any medical 
+                            condition you may have or if prone to fainting. We always recommend getting a good night sleep, 
+                            having a full meal and some sugar before getting a tattoo to alleviate dizziness, nausea, and to 
+                            increase your pain tolerance. Getting a tattoo with a low blood sugar level is not ideal.
+                        </div>
+                    </div>
+                </li>
+
+
+                <li className="faq-question1 FAQEntry"  id="" title="">
+                    <h2 className="js-FAQH FAQEntry__heading"><span className="faq-plus"></span><span className="faq-spacer"></span>
+                    
+                    <a href="">Do Tattoos Hurt?</a></h2>
+
+                    <div className="FAQEntry__body">
+                        <div className="FAQEntry__bodyPos group">
+                            Et possimus autem sed beatae voluptatem et temporibus commodi aut fugit similique. Aut quia nihil et 
+                            velit commodi aut sint nostrum quo dignissimos praesentium et ullam harum hic molestiae possimus. Nam 
+                            voluptatem modi et autem laborum aut laudantium molestias ea nihil cumque?
+                        </div>
+                    </div>
+                </li>
+
+
+                <li className="faq-question1 FAQEntry"  id="" title="">
+                    <h2 className="js-FAQH FAQEntry__heading"><span className="faq-plus"></span><span className="faq-spacer"></span>
+                    
+                    <a href="">Can I bring a Friend/Family for moral support?</a></h2>
+
+                    <div className="FAQEntry__body">
+                        <div className="FAQEntry__bodyPos group">
+                            Et possimus autem sed beatae voluptatem et temporibus commodi aut fugit similique. Aut quia nihil et 
+                            velit commodi aut sint nostrum quo dignissimos praesentium et ullam harum hic molestiae possimus. Nam 
+                            voluptatem modi et autem laborum aut laudantium molestias ea nihil cumque?
+                        </div>
+                    </div>
+                </li>
+
+
+                <li className="faq-question1 FAQEntry"  id="" title="">
+                    <h2 className="js-FAQH FAQEntry__heading"><span className="faq-plus"></span><span className="faq-spacer"></span>
+                    
+                    <a href="">How do I take care of my tattoo afterwards?</a></h2>
+
+                    <div className="FAQEntry__body">
+                        <div className="FAQEntry__bodyPos group">
+                            Et possimus autem sed beatae voluptatem et temporibus commodi aut fugit similique. Aut quia nihil et 
+                            velit commodi aut sint nostrum quo dignissimos praesentium et ullam harum hic molestiae possimus. Nam 
+                            voluptatem modi et autem laborum aut laudantium molestias ea nihil cumque?
+                        </div>
+                    </div>
+                </li>
+
+
+                <li className="faq-question1 FAQEntry"  id="" title="">
+                    <h2 className="js-FAQH FAQEntry__heading"><span className="faq-plus"></span><span className="faq-spacer"></span>
+                    
+                    <a href="">My Ink Still Hasn't Healed...What Gives?</a></h2>
+
+                    <div className="FAQEntry__body">
+                        <div className="FAQEntry__bodyPos group">
+                            Et possimus autem sed beatae voluptatem et temporibus commodi aut fugit similique. Aut quia nihil et 
+                            velit commodi aut sint nostrum quo dignissimos praesentium et ullam harum hic molestiae possimus. Nam 
+                            voluptatem modi et autem laborum aut laudantium molestias ea nihil cumque?
+                        </div>
+                    </div>
+                </li>
+
             </ul>
         </div>
     </section>

@@ -23,17 +23,17 @@ const Footer = () => {
 
                     <div className="mobile-artists">
                         <Link className="footer-large-text" to="/TattooArtists">TATTOO ARTISTS</Link>
-                        <Link className="footer-small-text" to="/TattooArtists/kyle-baxter">Kyle Baxter</Link>
-                        <Link className="footer-small-text" to="/TattooArtists/bailey-renee">Bailey Renee</Link>
-                        <Link className="footer-small-text" to="/TattooArtists/jenn-schafer">Jenn Schafer</Link>
-                        <Link className="footer-small-text" to="/TattooArtists/matt-krstic">Matt Krstic</Link>
+                        <Link className="footer-small-text" to="/Kyle">Kyle Baxter</Link>
+                        <Link className="footer-small-text" to="/Bailey">Bailey Renee</Link>
+                        <Link className="footer-small-text" to="/Jenn">Jenn Schafer</Link>
+                        <Link className="footer-small-text" to="/Matt">Matt Krstic</Link>
                         <Link className="footer-large-text" to="/piercings">PIERCINGS</Link>
                         <Link className="footer-large-text" to="/TattooRemoval">TATTOO REMOVAL</Link>
                     </div>
 
                     <div className="mobile-info">
                         <Link className="footer-large-text" to="/About">ABOUT</Link>
-                        <Link className="footer-small-text" to="/FAQs">Aftercare FAQ'S</Link>
+                        <Link className="footer-small-text" to="/FAQ">Aftercare FAQ'S</Link>
                         <Link className="footer-small-text" to="/gallery">Our Shop</Link>
                         <Link className="footer-small-text" to="/Content/PDFs/ConsentForm.pdf">Client Forms</Link>
                         <Link className="footer-large-text" to="/gallery">OUR WORK</Link>
@@ -44,15 +44,15 @@ const Footer = () => {
 
                     <div class="desktop-artists">
                         <Link class="footer-large-text" to="/TattooArtists">TATTOO ARTISTS</Link>
-                        <Link class="footer-small-text" to="/TattooArtists/kyle-baxter">Kyle Baxter</Link>
-                        <Link class="footer-small-text" to="/TattooArtists/bailey-renee">Bailey Renee</Link>
-                        <Link class="footer-small-text" to="/TattooArtists/jenn-schafer">Jenn Schafer</Link>
-                        <Link class="footer-small-text" to="/TattooArtists/matt-kristic">Matt Kristic</Link>
+                        <Link className="footer-small-text" to="/Kyle">Kyle Baxter</Link>
+                        <Link className="footer-small-text" to="/Bailey">Bailey Renee</Link>
+                        <Link className="footer-small-text" to="/Jenn">Jenn Schafer</Link>
+                        <Link className="footer-small-text" to="/Matt">Matt Krstic</Link>
                     </div>
 
                     <div class="desktop-about">
                         <Link class="footer-large-text" to="/about">ABOUT</Link>
-                        <Link class="footer-small-text" to="/FAQs">Aftercare FAQ'S</Link>
+                        <Link class="footer-small-text" to="/FAQ">Aftercare FAQ'S</Link>
                         <Link class="footer-small-text" to="/gallery">Our Shop</Link>
                         <Link class="footer-small-text" target="_blank" to="/Content/PDFs/ConsentForm.pdf">Client Forms</Link>
                     </div>
@@ -61,7 +61,7 @@ const Footer = () => {
                         <Link class="footer-large-text" to="/piercings">PIERCINGS</Link>
                         <Link class="footer-large-text" to="/TattooRemoval">TATTOO REMOVAL</Link>
                         <Link class="footer-large-text" to="/gallery">OUR WORK</Link>
-                        <Link class="footer-large-text" to="/contact">CONTACT US</Link>
+                        <Link class="footer-large-text" to="/create">CONTACT US</Link>
                     </div>
                 </div>
             </div>

@@ -45,7 +45,7 @@ const Header = () => {
                             <label for="about" className="plus-sign"></label>
 
                             <ul className="dropdown-content about-dropdown">
-                                <li><Link className="dropdown-items" to="/FAQs">Aftercare FAQ's</Link></li>
+                                <li><Link className="dropdown-items" to="/FAQ">Aftercare FAQ's</Link></li>
                                 <li><Link className="dropdown-items" to="/about">Our Shop</Link></li>
                                 <li>
                                     <Link className="dropdown-items" target="_blank" to="/PDFs/ConsentForm.pdf">

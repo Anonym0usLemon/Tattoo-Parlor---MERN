@@ -5,10 +5,6 @@
 * Styles for FAQ page.
 */
 
-$Orange: #b46124; 
-$Merriweather: 'Merriweather'; 
-$Oswald: 'Oswald';
-
 .faq-page {
     .secondary-banner {
         .paper-gradient {
@@ -118,10 +114,12 @@ $Oswald: 'Oswald';
             width: 100%;
             padding: 28px;
             padding-left: 25px;
+            text-decoration: none;
+            color: white;
         }
     }
 
-    p {
+    .FAQEntry__bodyPos {
         overflow: visible;
         overflow-wrap: normal;
         font-family: $Merriweather;
