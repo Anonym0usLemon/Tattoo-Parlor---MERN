@@ -5,32 +5,32 @@ const Home = () => {
     return (
         <>
             <section className="schedule-apt padding-inline">
-                    <video className="background-video" autoplay="" muted="" loop="">
-                        <source src="/Video/TattooBanner.mp4" type="video/mp4"/>
-                        <source src="/Video/TattooBanner.webm" type="video/webm"/>
-                    </video>
+                <video className="background-video" autoplay="" muted="" loop="">
+                    <source src="/Video/TattooBanner.mp4" type="video/mp4"/>
+                    <source src="/Video/TattooBanner.webm" type="video/webm"/>
+                </video>
 
-                    <div className="paper-gradient"></div>
+                <div className="paper-gradient"></div>
 
-                    <div className="schedule-apt-text">
-                        <h1>
-                            <span>WAUKESHA'S TOP RATED</span>
-                            <br/> 
-                            BODY ART STUDIO
-                        </h1>
+                <div className="schedule-apt-text">
+                    <h1>
+                        <span>WAUKESHA'S TOP RATED</span>
+                        <br/> 
+                        BODY ART STUDIO
+                    </h1>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                        <p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <p>
 
-                            <a class="schedule-apt-button" href="/Contact"> 
-                                <img class="apt-button-left" src="/images/Home/schedule-apt-left-btn.png" border="0" alt="" /> 
-                                SCHEDULE APPOINTMENT 
-                                <img class="apt-button-right" src="/images/Home/schedule-apt-right-btn.png" border="0" alt="" /> 
-                            </a>
-                        </p>
-                    </div>
+                        <a class="schedule-apt-button" href="/Contact"> 
+                            <img class="apt-button-left" src="/images/Home/schedule-apt-left-btn.png" border="0" alt="" /> 
+                            SCHEDULE APPOINTMENT 
+                            <img class="apt-button-right" src="/images/Home/schedule-apt-right-btn.png" border="0" alt="" /> 
+                        </a>
+                    </p>
+                </div>
             </section>
 
             <section className="excellent-headline-section padding-inline">

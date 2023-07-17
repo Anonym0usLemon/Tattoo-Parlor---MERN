@@ -27,9 +27,9 @@ const App = () => {
       <Route exact path="admin" element={<Admin />} />
        <Route path="/edit/:id" element={<Edit />} />
        <Route path="/create" element={<Create />} />
-       <Route path="about" element={<About />} /> 
+       <Route path="/about" element={<About />} /> 
        <Route path="*" element={<NoPage />} /> 
-       <Route path="tattooartists" element={<TattooArtists />} /> 
+       <Route path="/tattooartists" element={<TattooArtists />} /> 
      </Routes>
      <Footer />
    </div>

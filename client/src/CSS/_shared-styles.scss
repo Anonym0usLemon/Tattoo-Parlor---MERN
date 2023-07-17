@@ -3,6 +3,14 @@
 * Date: March 15th, 2023
 */ 
 
+// Variables
+$black: #000000;
+$Orange: #b46124; 
+$Grey: #505050; 
+$Tan: #e5c8a3;
+$Merriweather: 'Merriweather'; 
+$Oswald: 'Oswald';
+
 // adjust left/right padding here
 
 .padding-inline {
@@ -96,9 +104,11 @@ p {
     letter-spacing: 0.2px;
     text-decoration: none;
     transition: all 0.25s ease-in-out;
+    text-transform: uppercase;
 
     &:hover {
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: $Orange;
+        border: none;
         color: white;
     }
 }
