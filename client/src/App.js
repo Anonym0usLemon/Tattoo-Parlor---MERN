@@ -17,6 +17,11 @@ import About from './components/About';
 import NoPage from './components/NoPage';
 import TattooArtists from './components/TattooArtists';
 import Footer from './components/Footer';
+import Kyle from './components/Artists/Kyle';
+import Bailey from './components/Artists/Bailey';
+import Jenn from './components/Artists/Jenn';
+import Matt from './components/Artists/Matt';
+import Melyssa from './components/Artists/Melyssa';
 
 const App = () => {
  return (
@@ -30,6 +35,11 @@ const App = () => {
        <Route path="/about" element={<About />} /> 
        <Route path="*" element={<NoPage />} /> 
        <Route path="/tattooartists" element={<TattooArtists />} /> 
+       <Route path="/Kyle" element={<Kyle />} /> 
+       <Route path="/Bailey" element={<Bailey />} /> 
+       <Route path="/Jenn" element={<Jenn />} /> 
+       <Route path="/Matt" element={<Matt />} /> 
+       <Route path="/Melyssa" element={<Melyssa />} /> 
      </Routes>
      <Footer />
    </div>

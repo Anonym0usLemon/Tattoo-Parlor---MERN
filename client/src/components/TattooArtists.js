@@ -5,10 +5,10 @@ const TattooArtists = () => {
     return (
     <>
         <div className="secondary-banner">
-                <img class="tattoo-art-background" src="/images/TattooArtists/background.png" alt=""/>
+                <img className="tattoo-art-background" src="/images/TattooArtists/background.png" alt=""/>
             </div>
         
-        <section class="tattoo-artists-page">    
+        <section className="tattoo-artists-page">    
             <h1>
                 Waukesha
                 <span>
@@ -18,33 +18,33 @@ const TattooArtists = () => {
                 </span>
             </h1>
 
-            <div class="tattoo-art-artists">
-                <div class="tattoo-art-item">
+            <div className="tattoo-art-artists">
+                <Link to="/Kyle" className="tattoo-art-item">
                     <img src="/images/TattooArtists/Kyle.jpg" alt=""/>
 
                     <p>Kyle Baxter<span>Traditional Style</span></p>
-                </div>
+                </Link>
 
-                <div class="tattoo-art-item">
+                <Link to="/Bailey" className="tattoo-art-item">
                     <img src="/images/TattooArtists/Bailey.jpg" alt=""/>
 
                     <p>Bailey Renee<span>Geometric, Fine line Style</span></p>
-                </div>
+                </Link>
 
-                <div class="tattoo-art-item">
+                <Link to="/Jenn" className="tattoo-art-item">
                     <img src="/images/TattooArtists/Jenn.jpg" alt=""/>
 
                     <p>Jenn Schafer<span>Blackwork, Realism Style</span></p>
-                </div>
+                </Link>
 
-                <div class="tattoo-art-item">
+                <Link to="/Matt"  className="tattoo-art-item">
                     <img src="/images/TattooArtists/Matt.jpg" alt=""/>
 
                     <p>Matt Krstic<span>Neo Traditional Style</span></p>
-                </div>
+                </Link>
             </div>
 
-            <div class="tattoo-art-contact">
+            <div className="tattoo-art-contact">
                 <picture>
                     <source media="(max-width:500px)" srcset="/images/TattooArtists/contact-us-mobile-background.png"/>
                     <img className="contact-background" src="/images/TattooArtists/contact-us-background.png" alt=""/>

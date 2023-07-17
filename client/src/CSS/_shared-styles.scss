@@ -71,6 +71,8 @@ p {
     justify-content: space-evenly;
     gap: 7px;
     transition: all 0.25s ease-in-out;
+    color: white;
+    text-transform: uppercase;
 
     @media only screen and (max-width: 400px) {
         width: 290px;

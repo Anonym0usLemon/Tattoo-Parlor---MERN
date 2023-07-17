@@ -21,11 +21,11 @@ const Header = () => {
                             <label className="plus-sign" for="artists"></label>
 
                             <ul className="dropdown-content">
-                                <li><Link to="">Kyle Baxter</Link></li>
-                                <li><Link to="">Bailey Renee</Link></li>
-                                <li><Link to="">Jenn Schafer</Link></li>
-                                <li><Link to="">Matt Kristic</Link></li>
-                                <li><Link to="">Melyssa Marsh</Link></li>
+                                <li><Link to="/Kyle">Kyle Baxter</Link></li>
+                                <li><Link to="/Bailey">Bailey Renee</Link></li>
+                                <li><Link to="/Jenn">Jenn Schafer</Link></li>
+                                <li><Link to="/Matt">Matt Kristic</Link></li>
+                                <li><Link to="/Melyssa">Melyssa Marsh</Link></li>
                             </ul>
                         </li>
 
