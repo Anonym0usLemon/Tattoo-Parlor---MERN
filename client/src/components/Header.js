@@ -32,7 +32,7 @@ const Header = () => {
                         <li className="list-items"><Link to="/piercings">PIERCINGS</Link></li>
                         <li className="list-items"><Link to="/tattooremoval">TATTOO REMOVAL</Link></li>
                         <li><div className="menu-space"></div></li>
-                        <li className="list-items"><Link to="/gallery">OUR WORK</Link></li>
+                        <li className="list-items"><Link to="/OurWork">OUR WORK</Link></li>
 
                         <li className="has-dropdown">
                             <Link className="parent-link" to="/about">

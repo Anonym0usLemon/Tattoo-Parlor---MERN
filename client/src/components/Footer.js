@@ -36,7 +36,7 @@ const Footer = () => {
                         <Link className="footer-small-text" to="/FAQ">Aftercare FAQ'S</Link>
                         <Link className="footer-small-text" to="/gallery">Our Shop</Link>
                         <Link className="footer-small-text" to="/Content/PDFs/ConsentForm.pdf">Client Forms</Link>
-                        <Link className="footer-large-text" to="/gallery">OUR WORK</Link>
+                        <Link className="footer-large-text" to="/OurWork">OUR WORK</Link>
                         <Link className="footer-large-text" to="/contact">CONTACT US</Link>
                     </div>
 
@@ -60,7 +60,7 @@ const Footer = () => {
                     <div class="desktop-other">
                         <Link class="footer-large-text" to="/piercings">PIERCINGS</Link>
                         <Link class="footer-large-text" to="/TattooRemoval">TATTOO REMOVAL</Link>
-                        <Link class="footer-large-text" to="/gallery">OUR WORK</Link>
+                        <Link class="footer-large-text" to="/OurWork">OUR WORK</Link>
                         <Link class="footer-large-text" to="/create">CONTACT US</Link>
                     </div>
                 </div>

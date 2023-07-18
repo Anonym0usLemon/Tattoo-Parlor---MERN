@@ -23,6 +23,7 @@ import Jenn from './components/Artists/Jenn';
 import Matt from './components/Artists/Matt';
 import Melyssa from './components/Artists/Melyssa';
 import FAQ from './components/FAQ'; 
+import OurWork from './components/Our-Work'
 
 const App = () => {
  return (
@@ -42,6 +43,7 @@ const App = () => {
        <Route path="/Matt" element={<Matt />} /> 
        <Route path="/Melyssa" element={<Melyssa />} /> 
        <Route path="/FAQ" element={<FAQ />} /> 
+       <Route path="/OurWork" element={<OurWork />} /> 
      </Routes>
      <Footer />
    </div>
