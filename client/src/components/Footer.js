@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="contact-info">
                         <Link className="address" to="#">1430 E Moreland Blvd, Waukesha, WI</Link>
                         <Link className="js-phoneswap footer-phone" to="/contact">262.574.9400</Link>
-                        <h4 className="copyright">©<span id="dynamic-year"></span> All Rights Reserved.</h4> {/* TODO: Add JS function to update year dynamically */}
+                        <h4 className="copyright">©<span id="dynamic-year"></span> Designed by iNET Web - Developed by Dominic DiModugno</h4> 
                     </div>
                 </div>
 

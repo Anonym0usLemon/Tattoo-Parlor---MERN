@@ -30,7 +30,7 @@ const Header = () => {
                         </li>
 
                         <li className="list-items"><Link to="/piercings">PIERCINGS</Link></li>
-                        <li className="list-items"><Link to="/tattooremoval">TATTOO REMOVAL</Link></li>
+                        <li className="list-items"><Link to="/TattooRemoval">TATTOO REMOVAL</Link></li>
                         <li><div className="menu-space"></div></li>
                         <li className="list-items"><Link to="/OurWork">OUR WORK</Link></li>
 

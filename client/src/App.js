@@ -24,6 +24,8 @@ import Matt from './components/Artists/Matt';
 import Melyssa from './components/Artists/Melyssa';
 import FAQ from './components/FAQ'; 
 import OurWork from './components/Our-Work'
+import TattooRemoval from './components/TattooRemoval'; 
+import Piercings from "./components/Piercings";
 
 const App = () => {
  return (
@@ -44,6 +46,8 @@ const App = () => {
        <Route path="/Melyssa" element={<Melyssa />} /> 
        <Route path="/FAQ" element={<FAQ />} /> 
        <Route path="/OurWork" element={<OurWork />} /> 
+       <Route path="/TattooRemoval" element={<TattooRemoval />} />
+       <Route path="/Piercings" element={<Piercings/>} />
      </Routes>
      <Footer />
    </div>

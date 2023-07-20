@@ -1,4 +1,5 @@
 import React from "react"; 
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -19,10 +20,11 @@ const About = () => {
                 ullamco laboris nisi ut.ut.
             </p>
             
-            <a class="schedule-apt-button" href="/contact"> 
+            <Link class="schedule-apt-button" to="/create"> 
                 <img src="/images/About/schedule-apt-left-btn.png" border="0" alt="" /> 
                 SCHEDULE APPOINTMENT 
-                <img src="/images/About/schedule-apt-right-btn.png" border="0" alt="" /> </a>
+                <img src="/images/About/schedule-apt-right-btn.png" border="0" alt="" /> 
+			</Link>
         </div>
 			<div> 
 				<img className="tattoo-room-jpg" src="/images/About/tattoo-room.jpg" alt=""/>
